@@ -1,0 +1,310 @@
+@import url(https://fonts.googleapis.com/css?family=K2D);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "K2D";
+}
+
+.main {
+
+  width: 360px;
+  margin: auto;
+  height: 560px;
+  box-shadow: 40px 25px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 60px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+
+}
+
+.hidden {
+  display: none;
+}
+
+.img {
+  height: 250px;
+  background: rgba(255, 255, 255, 0.2);
+
+}
+
+.content {
+  text-align: center;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+
+.content h3 {
+  border-bottom: 2px solid hsl(240, 14%, 99%)
+}
+
+.content h1 {
+  margin: 1rem 0;
+}
+
+.content p {
+  color: #00a2ff;
+}
+
+.Name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(255, 192, 203);
+  border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+
+.fl-l {
+  display: flex;
+  align-items: center;
+  padding-left: 2.5rem;
+}
+
+.fl-l img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(238, 238, 238);
+}
+
+.fl-l p {
+  margin: auto;
+
+}
+
+.fl-c {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+}
+
+.fl-c img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(238, 238, 238);
+}
+
+.fl-g {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+
+}
+
+.fl-g img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(238, 238, 238);
+}
+
+.fl-i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+}
+
+.fl-i img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: rgb(238, 238, 238);
+}
+
+.p {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "K2D";
+  text-shadow: 2rem;
+  border-radius: 20%;
+  text-shadow: 40px 25px 30px rgba(255, 255, 255, 0.2);
+
+}
+
+.rainbow {
+
+  /* Font options */
+  font-family: 'K2D';
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+  font-style: italic;
+
+  /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow {
+  0% {
+    color: pink;
+  }
+
+  10% {
+    color: #f18ef1;
+  }
+
+  20% {
+    color: white;
+  }
+
+  30% {
+    color: pink;
+  }
+
+  40% {
+    color: #f18ef1;
+  }
+
+  50% {
+    color: white;
+  }
+
+  60% {
+    color: pink;
+  }
+
+  70% {
+    color: #f18ef1;
+  }
+
+  80% {
+    color: white;
+  }
+
+  90% {
+    color: #ffc0cb;
+  }
+
+  100% {
+    color: #f18ef1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow {
+  0% {
+    color: pink;
+  }
+
+  10% {
+    color: #f18ef1;
+  }
+
+  20% {
+    color: white;
+  }
+
+  30% {
+    color: pink;
+  }
+
+  40% {
+    color: #f18ef1;
+  }
+
+  50% {
+    color: white;
+  }
+
+  60% {
+    color: pink;
+  }
+
+  70% {
+    color: #f18ef1;
+  }
+
+  80% {
+    color: white;
+  }
+
+  90% {
+    color: pink;
+  }
+
+  100% {
+    color: #f18ef1;
+  }
+}
+
+/* Standar Syntax */
+@keyframes rainbow {
+  0% {
+    color: pink;
+  }
+
+  10% {
+    color: #f18ef1;
+  }
+
+  20% {
+    color: white;
+  }
+
+  30% {
+    color: pink;
+  }
+
+  40% {
+    color: #f18ef1;
+  }
+
+  50% {
+    color: white;
+  }
+
+  60% {
+    color: pink;
+  }
+
+  70% {
+    color: #f18ef1;
+  }
+
+  80% {
+    color: white;
+  }
+
+  90% {
+    color: pink;
+  }
+
+  100% {
+    color: #f18ef1;
+  }
+}
+
+.font-face {
+  src: url("/font/puipuidemo-black-webfont.woff2") format("woff2"), url("/font/puipuidemo-black-webfont.woff") format("woff");
+}
