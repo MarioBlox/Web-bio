@@ -54,8 +54,12 @@
   margin: 1rem 0;
 }
 
+.a{
+  color: white;
+}
+
 .content p {
-  color: #00a2ff;
+  color: #ffc0cb;
 }
 
 .Name {
@@ -150,7 +154,6 @@
 
   /* Font options */
   font-family: 'K2D';
-  text-shadow: 2px 2px 4px #000000;
   font-weight: bold;
   font-style: italic;
 
